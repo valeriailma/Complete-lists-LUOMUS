@@ -1,6 +1,6 @@
 # Complete-lists-LUOMUS
  
-This code is for analysing the Complete list (in Finnish Täydelliset listat) species observation data downloaded from Finnish Biodiversity Information Facility (https://laji.fi/observation).  
+This code is for analysing the Complete list (in Finnish Täydelliset listat) species observation data downloaded from Finnish Biodiversity Information Facility (https://laji.fi/en/observation).  
 
 The purpose of the script 1 is to transform data downloaded from laji.fi portal into a correct form for Joint Species Distribution Modelling using HSMC modeling framework (Hierarchical Modelling of Species Communities, scripts 2-7). For more information on HMSC, please refer to the book from Ovaskainen and Abrego (2020), or to Ovaskainen et al. 2017 (see below). The code of script “1 - Download and modify data” has been written on the basis of code by Ovaskainen et al., and all other scripts (2-7) applying HMSC framework are entirely written by Ovaskainen et al., and have been downloaded from this website: https://www.helsinki.fi/en/researchgroups/statistical-ecology/software/hmsc .  
 

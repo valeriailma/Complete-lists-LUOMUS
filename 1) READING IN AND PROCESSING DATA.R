@@ -26,10 +26,6 @@ lapply(packages,library,character.only=T)
 # (2) ######################################################################################################
 # READ IN DATA ----
 
-################ OMA POISTA ################  ################  ################  ################ 
-setwd("C:/Users/valavale/Documents/TÄYD LISTAT BIOMON/Modelling/testing malli script")
-################ OMA POISTA ################  ################  ################  ################ 
-
 setwd("filepath") # set working directory 
 
 # creating folders in directory, needed later
@@ -156,7 +152,6 @@ df$Month <- str_sub(df$Day, 6, 7) # Month
 
 
 # (5) ######################################################################################################
-
 # CREATE A FILE OF COORDINATE POINTS  ----
 # Environmental variables are used in modeling to explain species occurrences/distribution.
 # Any relevant dataset can be used. Here you can download the coordinate information of surveypoints into a csv. 
@@ -227,14 +222,11 @@ df2 <- df2[!duplicated(df2[,c("Submission.identifier")]),] # Delete duplicates
 # (8) ######################################################################################################
 # SAVE DATA FRAME FOR MODELLING (optional) ----
 
-
 write.csv( df2, file = file.path(dataDir,"laji_data_for_modelling.csv" ))
-
 
 
 # (9) ######################################################################################################
 # DEFINING HMSC MODEL ---- 
-
 
 ##################################################################################################
 # 9.1) SPECIES DATA INTO Y MATRIX ----

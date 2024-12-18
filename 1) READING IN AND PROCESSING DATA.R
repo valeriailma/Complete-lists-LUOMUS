@@ -3,7 +3,7 @@
 # This template script reads the "Complete Lists" (Täydelliset listat) dataset downloaded from laji.fi to model species occurrences using HMSC framework (Hierarchical Modelling of Species Communities).
 # This code makes the necessary modifications to the dataset so that HMSC scripts can be executed.
 # For more information on HMSC framework, refer to the book: Ovaskainen, O. and Abrego, N. 2020. Joint Species Distribution Modelling - With Applications in R. Cambridge University Press.
-# This script has been written by Valeria Valanne (Finnish Museum of Natural History) on the basis of code distributed as supporting information of the book above.
+# This script has been written by Valeria Valanne (Finnish Museum of Natural History) on the basis of code distributed as supporting information of the book above and HMSC courses of 2020 and 2022.
 
 # In this example, the dataset used is "Bumblebees - Complete List".
 # The data has been downloaded from the Finnish Biodiversity Information Facility (laji.fi) (see READ ME file in Complete-lists-LUOMUS Github page for instruction on downloading the data).

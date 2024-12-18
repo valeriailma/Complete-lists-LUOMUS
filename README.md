@@ -10,7 +10,7 @@ Instructions on downloading Complete lists data from FinBIF (laji.fi):
 2) Clikc ‘Select cources’ and write ‘Complete lists’ into the search bar. (Complete list datasets can be found also under Collections of the Finnish Museum of Natural History > Luomus monitoring schemes > Complete list monitoring scheme.) 
 3) Choose a Complete list (species group) you are interested in and press ok. You can choose also other filters from the panel on the right, such as place or date. 
 4) Click Search from upper right corner. Then click Download above the updated observations table, and a pop up window appears. Click here Select columns (next to another Download-button). 
-5) Select columns you wish to be included. Recommended to choose at least  Submission identifier, Taxonomic order, Scientific name, ETRS.TM35FIN (or WGS84), Location accuracy (m), Time, Observer(s)/Collector(s), and The stated certainty of the observation. Depending on the species group, you may also include columns such as Life stage (plants) or Number.  
+5) Select columns you wish to be included. Recommended to choose at least  Submission identifier, Taxonomic order, Species, Scientific name, ETRS.TM35FIN (or WGS84), Location accuracy (m), Time, Observer(s)/Collector(s), and The stated certainty of the observation. Depending on the species group, you may also include columns such as Life stage (plants) or Number.  
 6) Press ok and Download the data. A tsv file will be downloaded. 
 
 
